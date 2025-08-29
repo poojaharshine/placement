@@ -1,0 +1,19 @@
+import java.util.*;
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int i,start,end;
+        Scanner sc=new Scanner(System.in);
+        start=sc.nextInt();
+        end=sc.nextInt();
+        for(i=start;i<=end;i++){
+            if(i%2==0){
+                System.out.print(i+" ");
+            }
+        
+        }
+        sc.close();
+}
+}
